@@ -2,3 +2,5 @@
 apache-airflow[amazon]==1.10.12
 boto3==1.17.44
 
+flask-appbuilder>=4.5.3 # not directly required, pinned by Snyk to avoid a vulnerability
+jinja2>=3.1.6 # not directly required, pinned by Snyk to avoid a vulnerability
